@@ -1,122 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP jotp
+title: OWASP Jotp
 tags: example-tag
 level: 0
 type: tool
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-# Main
 
-<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
-"OWASP_Project_Header.jpg")
+{front matter for this file}
 
-</div>
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h2 id="owasp_jotp">OWASP jOTP</h2>
-<p>OWASP jOTP is a microservice implemented in Java that can be used to generate, validate, and automatically expire one-time use password tokens.</p>
-<p>OWASP jOTP is a microservice implemented in Java that can be used to generate, validate, and automatically expire one-time use password tokens.</p>
-<h2 id="description">Description</h2>
-<h2 id="description">Description</h2>
-<p>A common use case for jOTP is as follows: 1. Client applications displays a login page requesting the user enter his/her username and password. 2. If the credentials check passes, the user's email is looked up and a message containing the token is sent. 3. The application then requests that the OTP token that was sent be entered in a text box. Once entered, it is sent to jOTP. 4. jOTP validates the token. If the token was valid, the application finishes authenticating the user. If the token was not valid, the user is redirected to the login page.</p>
-<p>A common use case for jOTP is as follows: 1. Client applications displays a login page requesting the user enter his/her username and password. 2. If the credentials check passes, the user's email is looked up and a message containing the token is sent. 3. The application then requests that the OTP token that was sent be entered in a text box. Once entered, it is sent to jOTP. 4. jOTP validates the token. If the token was valid, the application finishes authenticating the user. If the token was not valid, the user is redirected to the login page.</p>
-<h2 id="licensing">Licensing</h2>
-<h2 id="licensing">Licensing</h2>
-<p>OWASP jOTP is available under the <a href="http://opensource.org/licenses/BSD-2-Clause">BSD 2-Clause License</a>.</p></td>
-<p>OWASP jOTP is available under the <a href="http://opensource.org/licenses/BSD-2-Clause">BSD 2-Clause License</a>.</p></td>
-<p>OWASP jOTP provides:</p>
-<ul>
-<li>OTP token generation, validation, and expiration.</li>
-</ul>
-<h2 id="project_leader">Project Leader</h2>
-<p>Rob Upcraft</p></td>
-<ul>
-<li><a href="https://bintray.com/upcrob/generic/jOTP/_latestVersion">Bintray Download</a></li>
-<li><a href="https://github.com/upcrob/jOTP">GitHub Repository</a></li>
-</ul>
-<h2 id="email_list">Email List</h2>
-<p><a href="https://lists.owasp.org/mailman/listinfo/owasp_jotp_project">OWASP jOTP Mailing List</a> NOTE: Include "jOTP" in the subject heading of all emails to this list.</p>
-<h2 id="news_and_events">News and Events</h2>
-<h2 id="classifications">Classifications</h2>
-<table>
-<tbody>
-<tr class="odd">
-<img src="New_projects.png" title="New_projects.png" alt="New_projects.png" width="100" /><figcaption>New_projects.png</figcaption>
-</figure></td>
-<img src="Owasp-builders-small.png" title="Owasp-builders-small.png" alt="Owasp-builders-small.png" /><figcaption>Owasp-builders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="odd">
-<img src="Cc-button-y-sa-small.png" title="Cc-button-y-sa-small.png" alt="Cc-button-y-sa-small.png" /><figcaption>Cc-button-y-sa-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Project_Type_Files_CODE.jpg" title="Project_Type_Files_CODE.jpg" alt="Project_Type_Files_CODE.jpg" /><figcaption>Project_Type_Files_CODE.jpg</figcaption>
-</figure></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-# FAQs
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
 
-  - Where can OWASP jOTP be downloaded?
-    The source code, along with basic documentation, is located here:
-    [GitHub Repository](https://github.com/upcrob/jOTP)
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
 
-<!-- end list -->
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
 
-  - I can see the /sys/monitor endpoint, but when I try to test the
-    other endpoints (eg. /otp/validate), I don't get anything in the
-    response.
-    The endpoints under /otp only respond to POST requests, and will
-    return an empty response if they are requested via GET.
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
 
-# Acknowledgements
+```
+{info.md}
 
-## Volunteers
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
 
-OWASP jOTP is developed by a worldwide team of volunteers. The primary
-contributors to date have been:
+{leaders.md}
 
-  - Rob Upcraft
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
 
-# Road Map and Getting Involved
-
-As of
-[April 2014](https://www.owasp.org/index.php/Projects/OWASP_JOTP_Project/Roadmap),
-the priorities are:
-
-Development work for jOTP is largely complete as of now. Because it is
-intended to be lightweight and focused on this use case, the feature set
-is not planned to grow significantly, if at all. Most future work will
-include bug fixes, and additional customization options developed on an
-as-needed basis.
-
-Involvement in the development and promotion of OWASP jOTP is actively
-encouraged\! You do not have to be a security expert in order to
-contribute.
-
-Some of the ways you can help:
-
-  - Submit issues to the GitHub repository.
-  - Submit pull requests for fixes to the GitHub repository.
-
-__NOTOC__ <headertabs />
-
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
+-->
