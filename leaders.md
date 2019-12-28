@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Robert Upcraft](mailto://)
+* [Robert Upcraft](mailto:)
